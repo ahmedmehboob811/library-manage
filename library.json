@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Gaming in c#",
+    "author": "Edward",
+    "publicaton_year": 2021,
+    "read_status": "Unread",
+    "added_date": "2025-03-24 23:22:11"
+  },
+  {
+    "title": "Psychology",
+    "author": "John Eric",
+    "publicaton_year": 2020,
+    "read_status": true,
+    "added_date": "2025-03-24 23:22:47"
+  },
+  {
+    "title": "C++",
+    "author": "john Ritchard",
+    "publicaton_year": 2022,
+    "read_status": "Read",
+    "added_date": "2025-03-24 23:22:56"
+  },
+  {
+    "title": "python",
+    "author": "stephen",
+    "publicaton_year": 2011,
+    "read_status": "Unread",
+    "added_date": "2025-03-24 23:22:11"
+  },
+  {
+    "title": "intellicence",
+    "author": "jack",
+    "publicaton_year": 2020,
+    "read_status": true,
+    "added_date": "2025-03-24 23:22:47"
+  },
+  {
+    "title": "java",
+    "author": "Bell",
+    "publicaton_year": 2022,
+    "read_status": "Read",
+    "added_date": "2025-03-24 23:22:56"
+  }
+]
