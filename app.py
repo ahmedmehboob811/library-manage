@@ -1,3 +1,4 @@
+                                
 import streamlit as st
 import pandas as pd
 import json
@@ -5,9 +6,9 @@ import os
 from datetime import datetime
 import time
 import random
-# import plotly.express as px
-# import plotly.graph_objects as go
-from streamlit import st_lottie
+import plotly.express as px
+import plotly.graph_objects as go
+from streamlit_lottie import st_lottie
 import requests
 
 # Set page configuration
@@ -354,8 +355,9 @@ elif st.session_state.current_view == "library":
                 <div class='book-card'>
                     <h3>{book['title']}</h3>
                     <p><strong>Author:</strong> {book['author']}</p>
-                    <p><strong>Publication Year:</strong> {book['publication_year']}</p>
-                    <p><strong>Genre:</strong> {book['genre']}</p>
+                                    
+
+                   
                     <p><span class='{"read-badge" if book["read_status"] else "unread-badge"}'>{
                         "Read" if book["read_status"] else "Unread"}</span></p>
                 </div>
